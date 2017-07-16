@@ -1,0 +1,15 @@
+#
+# Author        :Julio Sanz
+# Website       :www.elarraydejota.com
+# Email         :juliojosesb@gmail.com
+# Description   :Format conversor
+# Dependencies  :ffmpeg
+# Usage         :Drag and drop the file you want to convert
+# License       :GPLv3
+#
+
+[Desktop Entry]
+Name=audio_convert_to_mp3
+Exec=bash -c "$(dirname %k)/conversion_scripts/audio_convert_to_mp3.sh %U"
+Terminal=true
+Type=Application
